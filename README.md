@@ -38,10 +38,6 @@ Make sure you have **Python 3.8+** installed.
 1. **Clone or download** this repository.
 2. **Install dependencies** via pip:
 
-```bash
-pip install pandas numpy openpyxl tkcalendar
-python fifo_calculator.py
-
 ## How to Use
 Click "تحميل ملف Excel" and select your transaction ledger.
 Pick the analysis date using the date picker.
@@ -61,3 +57,10 @@ Your input sheet should contain Arabic column headers including:
 كمية الوارد (Incoming Qty)
 كمية الصادر (Outgoing Qty)
 كود المشتري / اسم المشتري (Customer info)
+
+
+
+```bash
+pip install pandas numpy openpyxl tkcalendar
+python fifo_calculator.py
+
