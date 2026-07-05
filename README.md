@@ -39,6 +39,7 @@ Make sure you have **Python 3.8+** installed.
 2. **Install dependencies** via pip:
 
 ## How to Use
+
 Click "تحميل ملف Excel" and select your transaction ledger.
 Pick the analysis date using the date picker.
 Click "تحليل البيانات" to process.
