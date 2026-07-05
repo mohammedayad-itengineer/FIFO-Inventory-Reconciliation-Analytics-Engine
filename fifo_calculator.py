@@ -53,7 +53,7 @@ class LoginDialog:
         self.dialog.grab_set()
         
         # Valid passwords for authentication
-        self.valid_passwords = ["AltunkayaFIFO2025", "altunkayafifo2025", "Altunkayafifo2025"]
+        self.valid_passwords = ["123"]
         self.authenticated = False
         
         self.create_widgets()
@@ -94,7 +94,7 @@ class LoginDialog:
         ttk.Label(username_frame, text="اسم المستخدم:", font=LABEL_FONT).pack(side=tk.LEFT, padx=5)
         
         # Username entry (disabled with fixed value)
-        self.username_var = tk.StringVar(value="Altunkaya FIFO User")
+        self.username_var = tk.StringVar(value="admin")
         self.username_entry = ttk.Entry(username_frame, textvariable=self.username_var, state="readonly")
         self.username_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
         
