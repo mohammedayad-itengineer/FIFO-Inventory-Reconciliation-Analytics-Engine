@@ -1,4 +1,4 @@
-# FIFO Inventory Analyzer
+# FIFO Inventory Reconciliation & Analytics Engine
 
 A desktop ERP tool for calculating inventory valuation, cost of goods sold, and profit/loss using the **FIFO (First-In-First-Out)** method. Built for wholesale/retail businesses that track purchases, sales, and damages in Excel.
 
